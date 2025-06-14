@@ -11,5 +11,5 @@
 {extra_hint}
 
 你需要输出一个完整的json结构，包含两个键值对：
-"was_challenged": bool，表示是否选择质疑
-"challenge_reason": str，几句话解释选择质疑/不质疑的理由
+"vote": str，你所投票的对象，其应是场上所存在的玩家名之一
+"vote_reason": str，几句话解释选择投给这位玩家的理由

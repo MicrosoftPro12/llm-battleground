@@ -1,0 +1,11 @@
+{rules}
+
+你是{self_name}
+以下是当前这局游戏的情况：
+{round_base_info}
+{round_action_info}
+
+现在轮到你发言。{play_decision_info}
+
+你需要输出一个完整的json结构，包含一个键值对：
+"words"：str，这是你的发言

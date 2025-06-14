@@ -1,0 +1,16 @@
+{rules}
+
+你是{self_name}
+在这一轮中，你被票数最多地选为“可能是AI”的对象。
+
+现在你将进行一次“临终发言”——你最后的自辩机会。
+
+以下是当前这局游戏的情况：
+{round_base_info}
+{round_action_info}
+
+{votes_so_far}
+{challenge_context}
+
+你需要输出一个完整的json结构，包含一个键值对：
+"words"：str，这是你的发言
